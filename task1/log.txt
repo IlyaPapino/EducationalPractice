@@ -1,0 +1,12 @@
+commit 14b826b8c4f8904bd7ed5009fbcf01213cba0739 (HEAD -> master)
+Author: Ilya Papino <papino2000@outlook.com>
+Date:   Sun Feb 17 19:42:18 2019 +0300
+
+    add status.txt
+
+commit 157b5c01d352237bdc861b0d1059e477cf04a8c2
+Author: Ilya Papino <papino2000@outlook.com>
+Date:   Sun Feb 17 19:36:31 2019 +0300
+
+    add .gitignore
+
