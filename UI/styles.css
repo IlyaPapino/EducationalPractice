@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: "Almendra", serif;*/
+    font-family: "NEXT_ART_THIN", serif;
+    font-size: 16px;
+    position: absolute;
+      
+}
+header{
+    /*margin-top: 100px;*/
+    width: 100%;
+    height: 80px;
+    /*display: block;*/
+    background-color: white;
+   position: fixed;
+}
+
+img{
+     /* margin-top: 1%;*/
+    float: left;
+   /* margin-top: 5px;
+   /* margin-left: 50px;*/
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+.logo {
+    width: 45%;
+    height: 20px;
+    margin-left: 50px;
+    /*image-orientation:*/ 
+    /*display: inline-block;*/
+    float: left;
+   /* background-color: rebeccapurple;*/
+    display: inline-block;
+    
+}
+.user {
+    width: 35%;
+    height: 20px;
+    margin-left: 50px;
+    float: left;
+   /* background-color: red;*/
+    display: inline-block;
+   
+}
+.exit{
+    width: 10%;
+    height: 20px;
+    margin-left: 50px;
+    float: right;
+   /* background-color: yellow;*/
+    display: inline-block;
+position: absolute;
+ 
+}
+.add {
+    width: 25%;
+    height: 70px;
+    margin-left: 50px;
+   /* float: left;*/
+    display: block;
+    padding-top: 100px;
+    
+   /* background-color: green;*/
+}
+.addIMG{
+    /* margin-left: 50px;*/
+     padding-right: 5px;
+     margin-top: 20px;
+     display: inline-block;
+    /* background-color: chartreuse;*/
+}
+
+hr{
+    margin-top: 80px;
+}
+.filters {
+    width: 30%;
+    height: 500px;
+    margin-top : -1;
+    margin-left: 50px;
+    float: left;
+    display: inline-block;
+    
+    /*background-color: aqua;*/
+}
+.search{
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+}
+.post{
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    margin-right: 20%;
+   /* background-color: gold;*/
+}
+.fotopost{
+    float: left;
+   /* margin-top: 5px;
+   /* margin-left: 50px;*/
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 0;
+    display: inline-block;
+}
+.foto{
+    padding-bottom: 15px;
+    border-radius: 80px;
+    padding-top: 0;
+}
+.hashTag{
+    height: 20px;
+    width: 340px;
+    color: blue;
+   /* border-top: 10px;*/
+    padding-top: 10px;
+   /* background-color: rgb(30, 210, 60);*/
+    display: inline-block;
+    float: left;
+}
+.date{
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+   /* background-color: darkmagenta;*/
+    float: left;
+    text-align: right;
+    vertical-align: top;
+    
+}
+
+.main{
+    width: 39.5%;
+    /*background-color: red;*/
+    display: inline-block;
+}
+
+footer{
+    /*margin-top: 100px;*/
+    width: 100%;
+    height: 70px;
+    /*display: block;*/
+    /*background-color: gray;*/
+}
+.siteDate{
+    width: 20%;
+    height: 40px;
+   /* background-color: rebeccapurple;*/
+   /* text-align: center;*/
+   padding-left: 50px;
+   font-size: 20px;
+   vertical-align: middle;
+   
+}
+
+.creater {
+    width: 35%;
+    height: 20px;
+    margin-left: 50px;
+    float: left;
+   /* background-color: red;*/
+    display: inline-block;
+
+}
+.mail{
+    width: 30%;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    /*float: bottom;*/
+    /*background-color: yellow;*/
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+.footLogo{
+    width: 35%;
+    height: 20px;
+    margin-left: 50px;
+    /*image-orientation:*/ 
+    /*display: inline-block;*/
+    float: left;
+    /*background-color: rebeccapurple;*/
+    display: inline-block;
+    
+}
+.more{
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+@font-face {
+    
+    font-family: "NEXT_ART_THIN"; 
+    src: url("../UI/fonts/NEXT_ART_THIN.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
