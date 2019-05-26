@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="StylesHomepage.css">
+
+    <title>Лента</title>
+    </head>
+<body>
+<header>
+    <nav>
+        <div class="page-icon">
+
+            <img src="images.png"/>
+            <a href="#" title="PhotoPortal">
+                <span>Лента</span>
+            </a>
+        </div>
+        <div class="user-icon">
+            <a href="#" title="Профиль">
+                <span></span>
+            </a>
+        </div>
+        <div class="log-in">
+            <a href="#" title="Войти">
+                <img src="log_in.png"/>
+            </a>
+        </div>
+    </nav>
+</header>
+<aside>
+    <nav>
+        <div class="add-post" >
+            <a title="Добавить пост">
+
+                <img src="plus.png"/>
+            </a>
+        </div>
+
+        <div class="profile">
+            <a title="Профиль">
+
+
+                <img src="profile.png"/>
+            </a>
+        </div>
+        <div class="searching">
+
+            <a title="Поиск">
+                <img src="searching.png"/>
+            </a>
+        </div>
+    </nav>
+</aside>
+<main>
+    <article id="profile">
+        <div id="profile-info">
+        </div>
+        <div id="profile-photos">
+        </div>
+    </article>
+    <article id="searching">
+        <form>
+            <label>
+                По хэштегу или автору
+                <input type="search"/>
+            </label>
+            <label>
+                По дате
+                <input type="date"/>
+            </label>
+            <button id="search" >Поиск</button>
+        </form>
+    </article>
+    <section class="all-photos">
+        <button class="load-photos" type="button">Загрузить ещё фото</button>
+    </section>
+    <article id="edit">
+        <form>
+            <input id="edit-description" type="text" />
+            <input id="edit-hashtags" type="text" />
+            <button id="edit-enter"><p>Изменить пост</p></button>
+        </form>
+    </article>
+    <article id="authorization">
+        <form>
+            <input id="login" type="text" placeholder="Введите логин" required="required"/>
+            <input id="password" type="password" placeholder="Введите пароль" required="required"/>
+            <button id="enter"><p>LOG IN</p></button>
+        </form>
+    </article>
+    <article id="adding">
+        <div class="default-img">
+            <img src="default-img.png"/>
+        </div>
+        <nav id="filters">
+            <img class="grayscale" src="cat.jpg" height="35%" width="100%"/>
+            <img class="brightness" src="cat.jpg" height="35%" width="100%"/>
+            <img class="contrast" src="cat.jpg" height="35%" width="100%"/>
+            <img class="hue-rotate" src="cat.jpg" height="35%" width="100%"/>
+            <img class="saturate" src="cat.jpg" height="35%" width="100%"/>
+            <img class="sepia" src="cat.jpg" height="35%" width="100%"/>
+        </nav>
+        <form id="adding-form">
+            <input id="description" type="text" placeholder="Добавьте описание" required="required">
+            <input id="hashtags" type="text" placeholder="Добавьте хэштеги">
+            <div class="upload">
+                <label>
+                <input id="load-photo" type="file" accept="image/*" required="required">
+                Загрузить фото
+                </label>
+            </div>
+        </form>
+    </article>
+    <button class="load-photo" type="button"><p>Добавить пост</p></button>
+
+</main>
+<footer>
+    <nav>
+        <span class="name-portal">
+            PhotoPortal<br>
+            27.05.2019<br>
+        </span>
+        <span class="about-portal">
+            Папино Илья, 2 курс 8 группа<br>
+            papino2000@outlook.com<br>
+        </span>
+    </nav>
+</footer>
+</body>
+<script src = "Model.js"></script>
+<script src = "View.js"></script>
+<script src="Controller.js"></script>
+</html>

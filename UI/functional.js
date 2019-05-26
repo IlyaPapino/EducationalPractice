@@ -7,7 +7,7 @@ const test = (function () {
       author: 'Alex',
       photoLink: 'http://cats.png',
       likes: ['Vadim'],
-      hashTags: ['#funny', '#cats'],
+      hashTags: ['#funny', 'cats'],
     },
 
     {
